@@ -6,8 +6,8 @@ on:
 
 env:
   ECR_REPOSITORY: python-eks-app
-  AWS_REGION: us-east-1
-  CLUSTER_NAME: your-eks-cluster-name
+  AWS_REGION: us-east-2
+  CLUSTER_NAME: python-eks-demo
 
 jobs:
   deploy:
